@@ -14,8 +14,10 @@
 @property (nonatomic ,assign) BOOL hlj_viewVisible;
 @property (nonatomic ,strong ,readonly) HLJViewTrackModel *hlj_trackModel;
 
+- (void)hlj_setTrackTag:(NSString *)trackTag;
 - (void)hlj_setTrackTag:(NSString *)trackTag position:(NSInteger)position;
 - (void)hlj_setTrackTag:(NSString *)trackTag position:(NSInteger)position trackData:(NSDictionary *)trackData;
-- (void)hlj_setTrackTag:(NSString *)trackTag;
+- (void)hlj_setTrackTag:(NSString *)trackTag position:(NSInteger)position trackData:(NSDictionary *)trackData shieldView:(UIView *)shieldView;
 
 @end
+

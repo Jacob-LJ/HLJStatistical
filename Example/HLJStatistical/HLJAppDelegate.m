@@ -8,6 +8,7 @@
 
 #import "HLJAppDelegate.h"
 #import "HLJTest1ViewController.h"
+#import "HLJTestViewController.h"
 
 @implementation HLJAppDelegate
 
@@ -15,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    UINavigationController *viewController = [[UINavigationController alloc] initWithRootViewController:[[HLJTest1ViewController alloc] init]];
+    UINavigationController *viewController = [[UINavigationController alloc] initWithRootViewController:[[HLJTestViewController alloc] init]];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
@@ -51,3 +52,4 @@
 }
 
 @end
+

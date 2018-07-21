@@ -15,5 +15,7 @@
 @property (nonatomic ,copy) NSString *tag;
 @property (nonatomic ,assign) NSInteger position;
 @property (nonatomic ,copy) NSDictionary *data;
+@property (nonatomic, strong) UIView  *shieldView;                           ///<遮挡View
 
 @end
+
